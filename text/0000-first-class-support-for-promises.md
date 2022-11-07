@@ -421,7 +421,7 @@ const latestValue = use(observable);
 Two reasons:
 
 - Promises are not the only ["usable" type](#other-usable-types) — for example, you'll also be able to be `use(Context)`.
-- `use` is a very special Hook because [it's allowed be called conditionally](#conditionally-suspending-on-data). The idea is to mitigate confusion by making it the _only_ conditional Hook. Instead of remembering a handful of different conditional Hooks, developers will only have to remember one.
+- `use` is a very special Hook because [it's allowed to be called conditionally](#conditionally-suspending-on-data). The idea is to mitigate confusion by making it the _only_ conditional Hook. Instead of remembering a handful of different conditional Hooks, developers will only have to remember one.
 
 ## Why can't `use` be called in regular, non-React functions?
 
